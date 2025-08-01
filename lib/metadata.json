@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1752584444031,
+  "lastExport": 1754037510812,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -9,6 +9,7 @@
     "Bestiary/Creature Types/Creature Subtypes/Extraplanar.md",
     "Bestiary/Creature Types/Creature Subtypes/Yokai.md",
     "Bestiary/Creature Types/Elemental/Level 3 Elementals/Ifrit.md",
+    "Bestiary/Creature Types/Fey/Level 0 Fey/Straw Puppet.md",
     "Bestiary/Creature Types/Abomination.md",
     "Bestiary/Creature Types/Beast.md",
     "Bestiary/Creature Types/Celestial.md",
@@ -65,7 +66,7 @@
     "Core Rules, How to Play/Abbreviations and Terminology/Potency.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Roll.md",
     "Core Rules, How to Play/Abbreviations and Terminology/SP.md",
-    "Core Rules, How to Play/Abbreviations and Terminology/Su.md",
+    "Core Rules, How to Play/Abbreviations and Terminology/Supernatural.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Threaten.md",
     "Core Rules, How to Play/Abbreviations and Terminology/XP.md",
     "Core Rules, How to Play/Ability Scores/Ability Scores.md",
@@ -93,6 +94,7 @@
     "Core Rules, How to Play/Actions/Action System/Swift Action.md",
     "Core Rules, How to Play/Actions/Common Actions/Free Actions/Delay.md",
     "Core Rules, How to Play/Actions/Common Actions/Free Actions/Swap Item.md",
+    "Core Rules, How to Play/Actions/Common Actions/Instant Actions/Fall Prone.md",
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Administer Potion.md",
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid.md",
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Attack Action.md",
@@ -166,7 +168,7 @@
     "Core Rules, How to Play/Status Effects/Affliction.md",
     "Core Rules, How to Play/Status Effects/Anchored.md",
     "Core Rules, How to Play/Status Effects/Asleep.md",
-    "Core Rules, How to Play/Status Effects/Bleeding.md",
+    "Core Rules, How to Play/Status Effects/Bleed.md",
     "Core Rules, How to Play/Status Effects/Blinded.md",
     "Core Rules, How to Play/Status Effects/Blurred Vision.md",
     "Core Rules, How to Play/Status Effects/Charmed.md",
@@ -209,6 +211,16 @@
     "Core Rules, How to Play/Status Effects/Unstoppable.md",
     "Core Rules, How to Play/Status Effects/Untargetable.md",
     "Core Rules, How to Play/Status Effects/Wet.md",
+    "Core Rules, How to Play/Tags/Damage Types/Cold.md",
+    "Core Rules, How to Play/Tags/Damage Types/Crush.md",
+    "Core Rules, How to Play/Tags/Damage Types/Fire.md",
+    "Core Rules, How to Play/Tags/Damage Types/Holy.md",
+    "Core Rules, How to Play/Tags/Damage Types/Lightning.md",
+    "Core Rules, How to Play/Tags/Damage Types/Magic.md",
+    "Core Rules, How to Play/Tags/Damage Types/Necrotic.md",
+    "Core Rules, How to Play/Tags/Damage Types/Pierce.md",
+    "Core Rules, How to Play/Tags/Damage Types/Psychic.md",
+    "Core Rules, How to Play/Tags/Damage Types/Slash.md",
     "Core Rules, How to Play/Tags/School Tags/Abnegation.md",
     "Core Rules, How to Play/Tags/School Tags/Conjuration.md",
     "Core Rules, How to Play/Tags/School Tags/Divination.md",
@@ -220,11 +232,9 @@
     "Core Rules, How to Play/Tags/Buff.md",
     "Core Rules, How to Play/Tags/Caloric.md",
     "Core Rules, How to Play/Tags/Charm.md",
-    "Core Rules, How to Play/Tags/Cold.md",
     "Core Rules, How to Play/Tags/Companion.md",
     "Core Rules, How to Play/Tags/Concentration.md",
     "Core Rules, How to Play/Tags/Contingent.md",
-    "Core Rules, How to Play/Tags/Crush.md",
     "Core Rules, How to Play/Tags/Curse.md",
     "Core Rules, How to Play/Tags/Darkness.md",
     "Core Rules, How to Play/Tags/Dismissible.md",
@@ -233,26 +243,19 @@
     "Core Rules, How to Play/Tags/Emotion.md",
     "Core Rules, How to Play/Tags/Fear.md",
     "Core Rules, How to Play/Tags/Figment.md",
-    "Core Rules, How to Play/Tags/Fire.md",
     "Core Rules, How to Play/Tags/Glamer.md",
-    "Core Rules, How to Play/Tags/Holy.md",
     "Core Rules, How to Play/Tags/Language-Dependent.md",
     "Core Rules, How to Play/Tags/Light.md",
-    "Core Rules, How to Play/Tags/Lightning.md",
-    "Core Rules, How to Play/Tags/Magic.md",
     "Core Rules, How to Play/Tags/Martial.md",
     "Core Rules, How to Play/Tags/Mind-Affecting.md",
     "Core Rules, How to Play/Tags/Multi-Strike.md",
-    "Core Rules, How to Play/Tags/Necrotic.md",
     "Core Rules, How to Play/Tags/Pattern.md",
     "Core Rules, How to Play/Tags/Persistent.md",
-    "Core Rules, How to Play/Tags/Pierce.md",
     "Core Rules, How to Play/Tags/Polymorph.md",
-    "Core Rules, How to Play/Tags/Psychic.md",
     "Core Rules, How to Play/Tags/Scrying.md",
     "Core Rules, How to Play/Tags/Sigil.md",
-    "Core Rules, How to Play/Tags/Slash.md",
     "Core Rules, How to Play/Tags/Subtle.md",
+    "Core Rules, How to Play/Tags/Summoning.md",
     "Core Rules, How to Play/Tags/Tag.md",
     "Core Rules, How to Play/Tags/Teleportation.md",
     "Core Rules, How to Play/Tags/Water.md",
@@ -289,7 +292,9 @@
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Thrust.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Trigger.md",
     "Equipment/Weapon Rules/Basic Weapon.md",
+    "Equipment/Weapon Rules/Close Range.md",
     "Equipment/Weapon Rules/Exotic Weapon.md",
+    "Equipment/Weapon Rules/Long Range.md",
     "Equipment/Weapon Rules/Range.md",
     "Equipment/Weapon Rules/Special Attack.md",
     "Equipment/Weapon Rules/Weapon.md",
@@ -429,7 +434,22 @@
     "Techniques/Class and Weapon Abilities/Rogue/Dark Sight.md",
     "Techniques/Class and Weapon Abilities/Rogue/Haste.md",
     "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Cleave.md",
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Skewer.md",
     "Techniques/Class and Weapon Abilities/Class and Weapon Abilities.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Blood Bath.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Blood Rush.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Pyrrhic Might.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Soul Blade.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Bloodline Mimicry.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Gemarteld.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Sanguivory.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 3/Blood Armor.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 3/Blood Blitz.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 4/Death's Dance.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 5/Blood Barrage.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 5/Soul Split.md",
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art.md",
+    "Techniques/Hybrid Techniques/Hybrid Techniques.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Blindspot.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Dodge Roll.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Finisher.md",
@@ -438,6 +458,31 @@
     "Techniques/Martial Techniques/Deceit/Deceit 1/Pocket Sand.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Single Out.md",
     "Techniques/Martial Techniques/Deceit/Deceit.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Arrow Splitter.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Curved Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Disarming Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Dive.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Eye of the Amazon.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Final Attack.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Focus Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Pinning Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Ranger Whack.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Distant Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Double Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Eagle Eye.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Hailbreaker.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Inferno Quiver.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Piercing Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Slaying Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Arrow Rain.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Hamstring Shot.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Straw Puppet Milicien.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Tumble.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Fire Back.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Named Bullet.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Strafe.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 5/Snipe.md",
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship.md",
     "Techniques/Martial Techniques/Savagery/Savagery 1/Bloodlust.md",
     "Techniques/Martial Techniques/Savagery/Savagery 1/Foe Throw.md",
     "Techniques/Martial Techniques/Savagery/Savagery 1/Gore Paint.md",
@@ -498,6 +543,13 @@
     "Techniques/Spell Techniques/Lunar/Lunar 5/Magic Imbue.md",
     "Techniques/Spell Techniques/Lunar/Lunar.md",
     "Techniques/Spell Techniques/Marine/Marine.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Boneshaker.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Decompose.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Enervate.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Grasp of the Grave.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Grave Robber.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Halt Undead.md",
+    "Techniques/Spell Techniques/Necromancy/Necromancy.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Brilliant Barrage.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Illumination.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Lady of Light.md",
@@ -505,6 +557,7 @@
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Ricochet Reflection.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Shimmering Ray.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Solar Flash.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 3/Repelling Light.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Rainbow Beam.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Sabre of Light.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 5/Zonnestraal.md",
@@ -527,6 +580,9 @@
     "Techniques/Spell Techniques/Vitalism/Vitalism 1/Heal.md",
     "Techniques/Spell Techniques/Vitalism/Vitalism 1/Invigorate.md",
     "Techniques/Spell Techniques/Vitalism/Vitalism 1/Spare Life.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 2/Circle of Sealing.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 2/Turn Undead.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 3/Regenerate.md",
     "Techniques/Spell Techniques/Vitalism/Vitalism.md",
     "Techniques/Spellcasting Rules/CL.md",
     "Techniques/Spellcasting Rules/M.md",
@@ -776,8 +832,8 @@
       "dependencies": []
     },
     "Classes/Fighter/Archetypes/Dark Knight.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 2328,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 2348,
       "exportedPath": "classes/fighter/archetypes/dark-knight.html",
       "dependencies": []
     },
@@ -955,12 +1011,6 @@
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/sp.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Abbreviations and Terminology/Su.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 82,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/su.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Abbreviations and Terminology/Threaten.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 230,
@@ -986,8 +1036,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/CHA.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 536,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 337,
       "exportedPath": "core-rules,-how-to-play/ability-scores/cha.html",
       "dependencies": []
     },
@@ -1112,32 +1162,32 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Free Actions/Delay.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 198,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 202,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/delay.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Free Actions/Swap Item.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 335,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 343,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/swap-item.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Administer Potion.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 172,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 201,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/administer-potion.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 426,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 451,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/aid.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Attack Action.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 522,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 587,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/attack-action.html",
       "dependencies": []
     },
@@ -1304,7 +1354,7 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Damage.md": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 928,
       "exportedPath": "core-rules,-how-to-play/attacking/damage.html",
       "dependencies": []
@@ -1561,12 +1611,6 @@
       "exportedPath": "core-rules,-how-to-play/status-effects/asleep.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Status Effects/Bleeding.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 301,
-      "exportedPath": "core-rules,-how-to-play/status-effects/bleeding.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Status Effects/Blinded.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 197,
@@ -1628,8 +1672,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Drained.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 170,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 196,
       "exportedPath": "core-rules,-how-to-play/status-effects/drained.html",
       "dependencies": []
     },
@@ -1712,8 +1756,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Prone.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 168,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 246,
       "exportedPath": "core-rules,-how-to-play/status-effects/prone.html",
       "dependencies": []
     },
@@ -1736,8 +1780,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Siphoned.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 237,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 246,
       "exportedPath": "core-rules,-how-to-play/status-effects/siphoned.html",
       "dependencies": []
     },
@@ -1754,8 +1798,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Status.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 793,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 790,
       "exportedPath": "core-rules,-how-to-play/status-effects/status.html",
       "dependencies": []
     },
@@ -1778,8 +1822,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Taunted.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 473,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 483,
       "exportedPath": "core-rules,-how-to-play/status-effects/taunted.html",
       "dependencies": []
     },
@@ -1879,15 +1923,9 @@
       "exportedPath": "core-rules,-how-to-play/tags/charm.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Tags/Cold.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 123,
-      "exportedPath": "core-rules,-how-to-play/tags/cold.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Tags/Companion.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 898,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 897,
       "exportedPath": "core-rules,-how-to-play/tags/companion.html",
       "dependencies": []
     },
@@ -1901,12 +1939,6 @@
       "modifiedTime": 1751693509890,
       "sourceSize": 353,
       "exportedPath": "core-rules,-how-to-play/tags/contingent.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Crush.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 109,
-      "exportedPath": "core-rules,-how-to-play/tags/crush.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Curse.md": {
@@ -1957,22 +1989,10 @@
       "exportedPath": "core-rules,-how-to-play/tags/figment.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Tags/Fire.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 104,
-      "exportedPath": "core-rules,-how-to-play/tags/fire.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Tags/Glamer.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 138,
       "exportedPath": "core-rules,-how-to-play/tags/glamer.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Holy.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 193,
-      "exportedPath": "core-rules,-how-to-play/tags/holy.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Language-Dependent.md": {
@@ -1985,18 +2005,6 @@
       "modifiedTime": 1752055334215,
       "sourceSize": 208,
       "exportedPath": "core-rules,-how-to-play/tags/light.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Lightning.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 111,
-      "exportedPath": "core-rules,-how-to-play/tags/lightning.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Magic.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 181,
-      "exportedPath": "core-rules,-how-to-play/tags/magic.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Martial.md": {
@@ -2017,12 +2025,6 @@
       "exportedPath": "core-rules,-how-to-play/tags/multi-strike.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Tags/Necrotic.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 150,
-      "exportedPath": "core-rules,-how-to-play/tags/necrotic.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Tags/Pattern.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 267,
@@ -2035,22 +2037,10 @@
       "exportedPath": "core-rules,-how-to-play/tags/persistent.html",
       "dependencies": []
     },
-    "Core Rules, How to Play/Tags/Pierce.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 122,
-      "exportedPath": "core-rules,-how-to-play/tags/pierce.html",
-      "dependencies": []
-    },
     "Core Rules, How to Play/Tags/Polymorph.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 1132,
       "exportedPath": "core-rules,-how-to-play/tags/polymorph.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Psychic.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 136,
-      "exportedPath": "core-rules,-how-to-play/tags/psychic.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Scrying.md": {
@@ -2063,12 +2053,6 @@
       "modifiedTime": 1751693509890,
       "sourceSize": 419,
       "exportedPath": "core-rules,-how-to-play/tags/sigil.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Tags/Slash.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 119,
-      "exportedPath": "core-rules,-how-to-play/tags/slash.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Subtle.md": {
@@ -2300,8 +2284,8 @@
       "dependencies": []
     },
     "Equipment/Weapon Rules/Range.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 370,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 405,
       "exportedPath": "equipment/weapon-rules/range.html",
       "dependencies": []
     },
@@ -2540,8 +2524,8 @@
       "dependencies": []
     },
     "Skills/Acrobatics/Acrobatics.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 121,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 139,
       "exportedPath": "skills/acrobatics/acrobatics.html",
       "dependencies": []
     },
@@ -2942,8 +2926,8 @@
       "dependencies": []
     },
     "Skills/Medicine/Provide First Aid.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 284,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 281,
       "exportedPath": "skills/medicine/provide-first-aid.html",
       "dependencies": []
     },
@@ -3026,7 +3010,7 @@
       "dependencies": []
     },
     "Skills/Survival/Butcher.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1754037510812,
       "sourceSize": 831,
       "exportedPath": "skills/survival/butcher.html",
       "dependencies": []
@@ -3146,8 +3130,8 @@
       "dependencies": []
     },
     "Techniques/Martial Techniques/Savagery/Savagery 1/Gore Paint.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 406,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 396,
       "exportedPath": "techniques/martial-techniques/savagery/savagery-1/gore-paint.html",
       "dependencies": []
     },
@@ -3170,14 +3154,14 @@
       "dependencies": []
     },
     "Techniques/Martial Techniques/Savagery/Savagery 2/Seismic Stomp.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 624,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 632,
       "exportedPath": "techniques/martial-techniques/savagery/savagery-2/seismic-stomp.html",
       "dependencies": []
     },
     "Techniques/Martial Techniques/Savagery/Savagery.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 695,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 615,
       "exportedPath": "techniques/martial-techniques/savagery/savagery.html",
       "dependencies": []
     },
@@ -3314,14 +3298,14 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Tongues.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 372,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 378,
       "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-1/tongues.html",
       "dependencies": []
     },
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Stage Fright.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 536,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 552,
       "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-2/stage-fright.html",
       "dependencies": []
     },
@@ -3356,8 +3340,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Sabre of Light.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 395,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 400,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-4/sabre-of-light.html",
       "dependencies": []
     },
@@ -3416,7 +3400,7 @@
       "dependencies": []
     },
     "Techniques/Spellcasting Rules/Spell.md": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 873,
       "exportedPath": "techniques/spellcasting-rules/spell.html",
       "dependencies": []
@@ -3464,8 +3448,8 @@
       "dependencies": []
     },
     "Templates/Template, Bestiary Entry.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 1870,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 1994,
       "exportedPath": "templates/template,-bestiary-entry.html",
       "dependencies": []
     },
@@ -3512,175 +3496,175 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 550631,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 627914,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 65487,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 75212,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -3752,26 +3736,26 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Illumination.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 618,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 546,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-1/illumination.html",
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Prismatic Barrier.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 354,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 431,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/prismatic-barrier.html",
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Ricochet Reflection.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 609,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 622,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/ricochet-reflection.html",
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Shimmering Ray.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 593,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 599,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/shimmering-ray.html",
       "dependencies": []
     },
@@ -3782,8 +3766,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Rainbow Beam.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 661,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 662,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-4/rainbow-beam.html",
       "dependencies": []
     },
@@ -3896,8 +3880,8 @@
       "dependencies": []
     },
     "Techniques/Martial Techniques/Deceit/Deceit 1/Finisher.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 541,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 539,
       "exportedPath": "techniques/martial-techniques/deceit/deceit-1/finisher.html",
       "dependencies": []
     },
@@ -3950,8 +3934,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Lunar/Lunar 3/Astral Alignment.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 336,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 372,
       "exportedPath": "techniques/spell-techniques/lunar/lunar-3/astral-alignment.html",
       "dependencies": []
     },
@@ -4010,7 +3994,7 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Vitalism/Vitalism 1/Heal.md": {
-      "modifiedTime": 1752584444031,
+      "modifiedTime": 1754037510812,
       "sourceSize": 509,
       "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/heal.html",
       "dependencies": []
@@ -4022,8 +4006,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Vitalism/Vitalism 1/Spare Life.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 849,
+      "modifiedTime": 1754037510812,
+      "sourceSize": 886,
       "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/spare-life.html",
       "dependencies": []
     },
@@ -4055,6 +4039,414 @@
       "modifiedTime": 1752584444031,
       "sourceSize": 493,
       "exportedPath": "templates/template,-weapon-technique.html",
+      "dependencies": []
+    },
+    "Bestiary/Creature Types/Fey/Level 0 Fey/Straw Puppet.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 2679,
+      "exportedPath": "bestiary/creature-types/fey/level-0-fey/straw-puppet.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/Supernatural.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 82,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/supernatural.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Instant Actions/Fall Prone.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 80,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/instant-actions/fall-prone.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Status Effects/Bleed.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 547,
+      "exportedPath": "core-rules,-how-to-play/status-effects/bleed.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Cold.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 149,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/cold.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Crush.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 131,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/crush.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Fire.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 129,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/fire.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Holy.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 219,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/holy.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Lightning.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 137,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/lightning.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Magic.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 203,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/magic.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Necrotic.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 172,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/necrotic.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Pierce.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 148,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/pierce.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Psychic.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 160,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/psychic.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Damage Types/Slash.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 144,
+      "exportedPath": "core-rules,-how-to-play/tags/damage-types/slash.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Tags/Summoning.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 392,
+      "exportedPath": "core-rules,-how-to-play/tags/summoning.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Close Range.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 162,
+      "exportedPath": "equipment/weapon-rules/close-range.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Long Range.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 127,
+      "exportedPath": "equipment/weapon-rules/long-range.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Skewer.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 835,
+      "exportedPath": "techniques/class-and-weapon-abilities/weapon-abilities/common/skewer.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Blood Bath.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 507,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-1/blood-bath.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Blood Rush.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 436,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-1/blood-rush.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Pyrrhic Might.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 475,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-1/pyrrhic-might.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Soul Blade.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 533,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-1/soul-blade.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Bloodline Mimicry.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 773,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-2/bloodline-mimicry.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Gemarteld.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 327,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-2/gemarteld.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 2/Sanguivory.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 881,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-2/sanguivory.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 3/Blood Armor.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 304,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-3/blood-armor.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 3/Blood Blitz.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 443,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-3/blood-blitz.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 4/Death's Dance.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 473,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-4/death's-dance.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 5/Blood Barrage.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 444,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-5/blood-barrage.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art 5/Soul Split.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 342,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art-5/soul-split.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Blood Art/Blood Art.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 376,
+      "exportedPath": "techniques/hybrid-techniques/blood-art/blood-art.html",
+      "dependencies": []
+    },
+    "Techniques/Hybrid Techniques/Hybrid Techniques.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 223,
+      "exportedPath": "techniques/hybrid-techniques/hybrid-techniques.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Arrow Splitter.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 364,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/arrow-splitter.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Curved Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 453,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/curved-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Disarming Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 662,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/disarming-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Dive.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 376,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/dive.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Eye of the Amazon.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 228,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/eye-of-the-amazon.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Final Attack.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 362,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/final-attack.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Focus Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 572,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/focus-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Pinning Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 495,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/pinning-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 1/Ranger Whack.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 387,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-1/ranger-whack.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Distant Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 344,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/distant-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Double Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 317,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/double-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Eagle Eye.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 331,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/eagle-eye.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Hailbreaker.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 767,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/hailbreaker.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Inferno Quiver.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 293,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/inferno-quiver.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Piercing Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 345,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/piercing-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 2/Slaying Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 514,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-2/slaying-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Arrow Rain.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 352,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-3/arrow-rain.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Hamstring Shot.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 340,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-3/hamstring-shot.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Straw Puppet Milicien.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 316,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-3/straw-puppet-milicien.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 3/Tumble.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 230,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-3/tumble.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Fire Back.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 492,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-4/fire-back.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Named Bullet.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 568,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-4/named-bullet.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 4/Strafe.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 405,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-4/strafe.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship 5/Snipe.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 359,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship-5/snipe.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Marksmanship/Marksmanship.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 132,
+      "exportedPath": "techniques/martial-techniques/marksmanship/marksmanship.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Boneshaker.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 776,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/boneshaker.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Decompose.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 502,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/decompose.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Enervate.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 737,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/enervate.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Grasp of the Grave.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 652,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/grasp-of-the-grave.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Grave Robber.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 547,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/grave-robber.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy 1/Halt Undead.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 442,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy-1/halt-undead.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Necromancy/Necromancy.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 108,
+      "exportedPath": "techniques/spell-techniques/necromancy/necromancy.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 3/Repelling Light.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 633,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-3/repelling-light.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 2/Circle of Sealing.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 1149,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-2/circle-of-sealing.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 2/Turn Undead.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 444,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-2/turn-undead.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 3/Regenerate.md": {
+      "modifiedTime": 1754037510812,
+      "sourceSize": 1003,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-3/regenerate.html",
       "dependencies": []
     }
   }
