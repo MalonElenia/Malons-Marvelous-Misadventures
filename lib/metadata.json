@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1756422597901,
+  "lastExport": 1756475181067,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -67,6 +67,7 @@
     "Core Rules, How to Play/Abbreviations and Terminology/DC.md",
     "Core Rules, How to Play/Abbreviations and Terminology/DM.md",
     "Core Rules, How to Play/Abbreviations and Terminology/DR.md",
+    "Core Rules, How to Play/Abbreviations and Terminology/FH.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Flanking.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Initiative.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Lv.md",
@@ -165,6 +166,7 @@
     "Core Rules, How to Play/More Rules/Light Level.md",
     "Core Rules, How to Play/More Rules/Rounding Numbers.md",
     "Core Rules, How to Play/More Rules/Size and Reach.md",
+    "Core Rules, How to Play/More Rules/Specific Defenses Rule.md",
     "Core Rules, How to Play/More Rules/Stacking Damage and Defense.md",
     "Core Rules, How to Play/Recharging Abilities/At-Will.md",
     "Core Rules, How to Play/Recharging Abilities/Limited.md",
@@ -279,6 +281,10 @@
     "Equipment/Backgrounds/Noble.md",
     "Equipment/Backgrounds/Tradesman.md",
     "Equipment/Backgrounds/Wanderer.md",
+    "Equipment/Crafting/Crafting.md",
+    "Equipment/Crafting/Labor.md",
+    "Equipment/Crafting/Mana Crystal.md",
+    "Equipment/Crafting/Resources.md",
     "Equipment/Economics/Common Prices.md",
     "Equipment/Economics/Economics.md",
     "Equipment/Economics/Mana Donation.md",
@@ -286,10 +292,18 @@
     "Equipment/Economics/The Cost of Living.md",
     "Equipment/Economics/The Value of Gold.md",
     "Equipment/Food/Food.md",
+    "Equipment/Food/Ingredients.md",
+    "Equipment/Magic Items/Enchanting/Enchanting.md",
+    "Equipment/Magic Items/Infusion Scrolls/Weapon Infusion Scrolls/Scroll for Weapon Accuracy.md",
+    "Equipment/Magic Items/Infusion Scrolls/Infusion Scroll.md",
+    "Equipment/Magic Items/Upgrade Slot.md",
     "Equipment/Mundane Items/Mundane Item.md",
     "Equipment/Mundane Items/Property.md",
     "Equipment/Mundane Items/Tools.md",
     "Equipment/Mundane Items/Torch.md",
+    "Equipment/Specific Armor/Adamant Armor.md",
+    "Equipment/Specific Armor/Full Plate Armor.md",
+    "Equipment/Specific Weapons/Cleaving Axe.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Ammunition.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Natural Weapon.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Staff.md",
@@ -437,13 +451,14 @@
     "Skills/Persuasion/Example DCs.md",
     "Skills/Persuasion/Gather Information.md",
     "Skills/Persuasion/Persuasion.md",
+    "Skills/Profession/Specific Professions/Cooking.md",
     "Skills/Profession/Profession.md",
     "Skills/Profession/Quiz.md",
     "Skills/Stealth/Hide.md",
     "Skills/Stealth/Hide Trail.md",
     "Skills/Stealth/Stealth.md",
     "Skills/Survival/Butcher.md",
-    "Skills/Survival/Live off Land.md",
+    "Skills/Survival/Forage.md",
     "Skills/Survival/Navigate.md",
     "Skills/Survival/Survival.md",
     "Skills/Survival/Track.md",
@@ -467,6 +482,7 @@
     "Techniques/Class and Weapon Abilities/Rogue/Dark Sight.md",
     "Techniques/Class and Weapon Abilities/Rogue/Haste.md",
     "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Cleave.md",
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Great Cleave.md",
     "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Skewer.md",
     "Techniques/Class and Weapon Abilities/Class and Weapon Abilities.md",
     "Techniques/Hybrid Techniques/Blood Art/Blood Art 1/Blood Bath.md",
@@ -523,10 +539,22 @@
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 1/Foot Stomp.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 1/Night Punch.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 1/Sky Uppercut.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Body Slam.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Catch Blade.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Chi Block.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Chokehold.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Dropkick.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Flash Kick.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Low Sweep.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Axe Kick.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Chi Reflection.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Gust Dive.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Power Fists.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Resonating Strike.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Transformation.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 4/Star KO.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts 5/Ora Aura.md",
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 5/Super Transformation.md",
     "Techniques/Martial Techniques/Martial Arts/Martial Arts.md",
     "Techniques/Martial Techniques/Savagery/Savagery 1/Bloodlust.md",
     "Techniques/Martial Techniques/Savagery/Savagery 1/Foe Throw.md",
@@ -542,6 +570,7 @@
     "Techniques/Martial Techniques/Warfare/Warfare 1/Quickdraw.md",
     "Techniques/Martial Techniques/Warfare/Warfare 1/Second Wind.md",
     "Techniques/Martial Techniques/Warfare/Warfare 1/Taunt.md",
+    "Techniques/Martial Techniques/Warfare/Warfare 5/Unbreakable Body.md",
     "Techniques/Martial Techniques/Warfare/Warfare.md",
     "Techniques/Spell Techniques/Academy/Academy 1/Alarming Sigil.md",
     "Techniques/Spell Techniques/Academy/Academy 1/Feather Fall.md",
@@ -550,6 +579,7 @@
     "Techniques/Spell Techniques/Academy/Academy 1/Mage's Weapon.md",
     "Techniques/Spell Techniques/Academy/Academy 1/Magic Claw.md",
     "Techniques/Spell Techniques/Academy/Academy 1/Magic Guard.md",
+    "Techniques/Spell Techniques/Academy/Academy 1/Ritual Infusion.md",
     "Techniques/Spell Techniques/Academy/Academy 1/Scholar's Hand.md",
     "Techniques/Spell Techniques/Academy/Academy 2/Detect Magic.md",
     "Techniques/Spell Techniques/Academy/Academy 2/Dimensional Anchor.md",
@@ -658,6 +688,7 @@
     "Templates/Template, Race.md",
     "Templates/Template, Spell.md",
     "Templates/Template, Technique.md",
+    "Templates/Template, Weapon.md",
     "Templates/Template, Weapon Technique.md",
     "Chinese Folklore Notes.md",
     "Index.md",
@@ -2136,7 +2167,7 @@
       "dependencies": []
     },
     "Equipment/Armor and Shield Rules/Armor.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1756475181067,
       "sourceSize": 822,
       "exportedPath": "equipment/armor-and-shield-rules/armor.html",
       "dependencies": []
@@ -2190,8 +2221,8 @@
       "dependencies": []
     },
     "Equipment/Economics/Mana Donation.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 1807,
+      "modifiedTime": 1756475181067,
+      "sourceSize": 1801,
       "exportedPath": "equipment/economics/mana-donation.html",
       "dependencies": []
     },
@@ -2214,8 +2245,8 @@
       "dependencies": []
     },
     "Equipment/Food/Food.md": {
-      "modifiedTime": 1752584444031,
-      "sourceSize": 3278,
+      "modifiedTime": 1756475181067,
+      "sourceSize": 3315,
       "exportedPath": "equipment/food/food.html",
       "dependencies": []
     },
@@ -3065,12 +3096,6 @@
       "exportedPath": "skills/survival/butcher.html",
       "dependencies": []
     },
-    "Skills/Survival/Live off Land.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 312,
-      "exportedPath": "skills/survival/live-off-land.html",
-      "dependencies": []
-    },
     "Skills/Survival/Navigate.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 298,
@@ -3078,8 +3103,8 @@
       "dependencies": []
     },
     "Skills/Survival/Survival.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 135,
+      "modifiedTime": 1756475181067,
+      "sourceSize": 128,
       "exportedPath": "skills/survival/survival.html",
       "dependencies": []
     },
@@ -3546,175 +3571,175 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1756422597901,
-      "sourceSize": 689051,
+      "modifiedTime": 1756475181067,
+      "sourceSize": 723843,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1756422597901,
-      "sourceSize": 84221,
+      "modifiedTime": 1756475181067,
+      "sourceSize": 88958,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1756422597901,
+      "modifiedTime": 1756475181067,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -4839,6 +4864,198 @@
       "modifiedTime": 1756422597901,
       "sourceSize": 253,
       "exportedPath": "chinese-folklore-notes.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/FH.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 205,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/fh.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/More Rules/Specific Defenses Rule.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 702,
+      "exportedPath": "core-rules,-how-to-play/more-rules/specific-defenses-rule.html",
+      "dependencies": []
+    },
+    "Equipment/Crafting/Crafting.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 2210,
+      "exportedPath": "equipment/crafting/crafting.html",
+      "dependencies": []
+    },
+    "Equipment/Crafting/Labor.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 574,
+      "exportedPath": "equipment/crafting/labor.html",
+      "dependencies": []
+    },
+    "Equipment/Crafting/Mana Crystal.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 1153,
+      "exportedPath": "equipment/crafting/mana-crystal.html",
+      "dependencies": []
+    },
+    "Equipment/Crafting/Resources.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 341,
+      "exportedPath": "equipment/crafting/resources.html",
+      "dependencies": []
+    },
+    "Equipment/Food/Ingredients.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 2522,
+      "exportedPath": "equipment/food/ingredients.html",
+      "dependencies": []
+    },
+    "Equipment/Magic Items/Enchanting/Enchanting.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 142,
+      "exportedPath": "equipment/magic-items/enchanting/enchanting.html",
+      "dependencies": []
+    },
+    "Equipment/Magic Items/Infusion Scrolls/Weapon Infusion Scrolls/Scroll for Weapon Accuracy.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 108,
+      "exportedPath": "equipment/magic-items/infusion-scrolls/weapon-infusion-scrolls/scroll-for-weapon-accuracy.html",
+      "dependencies": []
+    },
+    "Equipment/Magic Items/Infusion Scrolls/Infusion Scroll.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 329,
+      "exportedPath": "equipment/magic-items/infusion-scrolls/infusion-scroll.html",
+      "dependencies": []
+    },
+    "Equipment/Magic Items/Upgrade Slot.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 291,
+      "exportedPath": "equipment/magic-items/upgrade-slot.html",
+      "dependencies": []
+    },
+    "Equipment/Specific Armor/Adamant Armor.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 1454,
+      "exportedPath": "equipment/specific-armor/adamant-armor.html",
+      "dependencies": []
+    },
+    "Equipment/Specific Armor/Full Plate Armor.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 654,
+      "exportedPath": "equipment/specific-armor/full-plate-armor.html",
+      "dependencies": []
+    },
+    "Equipment/Specific Weapons/Cleaving Axe.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 843,
+      "exportedPath": "equipment/specific-weapons/cleaving-axe.html",
+      "dependencies": []
+    },
+    "Skills/Profession/Specific Professions/Cooking.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 399,
+      "exportedPath": "skills/profession/specific-professions/cooking.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Forage.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 418,
+      "exportedPath": "skills/survival/forage.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Great Cleave.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 503,
+      "exportedPath": "techniques/class-and-weapon-abilities/weapon-abilities/common/great-cleave.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Body Slam.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 818,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-2/body-slam.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Chokehold.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 448,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-2/chokehold.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Dropkick.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 448,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-2/dropkick.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 2/Flash Kick.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 540,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-2/flash-kick.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Axe Kick.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 547,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/axe-kick.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Chi Reflection.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 621,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/chi-reflection.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Gust Dive.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 602,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/gust-dive.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Power Fists.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 325,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/power-fists.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Resonating Strike.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 935,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/resonating-strike.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 3/Transformation.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 452,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-3/transformation.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 4/Star KO.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 892,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-4/star-ko.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Martial Arts/Martial Arts 5/Super Transformation.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 634,
+      "exportedPath": "techniques/martial-techniques/martial-arts/martial-arts-5/super-transformation.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Warfare/Warfare 5/Unbreakable Body.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 284,
+      "exportedPath": "techniques/martial-techniques/warfare/warfare-5/unbreakable-body.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Academy/Academy 1/Ritual Infusion.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 634,
+      "exportedPath": "techniques/spell-techniques/academy/academy-1/ritual-infusion.html",
+      "dependencies": []
+    },
+    "Templates/Template, Weapon.md": {
+      "modifiedTime": 1756475181067,
+      "sourceSize": 620,
+      "exportedPath": "templates/template,-weapon.html",
       "dependencies": []
     }
   }
