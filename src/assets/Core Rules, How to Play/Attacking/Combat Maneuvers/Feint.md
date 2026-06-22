@@ -1,0 +1,3 @@
+Feint is the use of [[Deception]] vs the target's [[Insight]].
+When you succeed, you can either make the target [[Surprised]] against your attacks until the end of your turn, or against the next attack from an ally.
+Feint is NOT considered an [[Attack]], but you can still use your [[ACC]] in place of Deception. It is still classified as a [[Combat Maneuver]], and can benefit from any bonuses or defenses relevant to them.
